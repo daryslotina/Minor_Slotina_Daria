@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>translate.js</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #6aab73;}
+.s2 { color: #cf8e6d;}
+.s3 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+translate.js</font>
+</center></td></tr></table>
+<pre><span class="s0">const node_for_click = document.getElementById(</span><span class="s1">&quot;for_click&quot;</span><span class="s0">)</span>
+
+<span class="s2">function </span><span class="s0">translate()</span>
+<span class="s0">{</span>
+    <span class="s0">const lastname = document.getElementsByTagName(</span><span class="s1">'span'</span><span class="s0">)[</span><span class="s3">0</span><span class="s0">]</span>
+    <span class="s0">console.log(lastname.innerText)</span>
+    <span class="s0">lastname.innerText = </span><span class="s1">' Slotina'</span>
+
+    <span class="s0">const name = document.getElementsByTagName(</span><span class="s1">'span'</span><span class="s0">)[</span><span class="s3">1</span><span class="s0">]</span>
+    <span class="s0">console.log(name.innerText)</span>
+    <span class="s0">name.innerText = </span><span class="s1">' Daria'</span>
+
+    <span class="s0">const date = document.getElementsByTagName(</span><span class="s1">'span'</span><span class="s0">)[</span><span class="s3">4</span><span class="s0">]</span>
+    <span class="s0">console.log(date.innerText)</span>
+    <span class="s0">date.innerText = </span><span class="s1">' 14th September 2004'</span>
+<span class="s0">}</span>
+
+<span class="s0">node_for_click.addEventListener(</span><span class="s1">&quot;click&quot;</span><span class="s0">,translate)</span></pre>
+</body>
+</html>
