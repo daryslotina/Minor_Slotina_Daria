@@ -2,7 +2,7 @@
 <head>
 <title>calcz.js</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style type="text/css">
+<style type="text.css">
 .s0 { color: #cf8e6d;}
 .s1 { color: #bcbec4;}
 .s2 { color: #6aab73;}
